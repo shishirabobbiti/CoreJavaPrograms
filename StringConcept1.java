@@ -14,6 +14,11 @@ public class StringConcept1{
 	s=s.concat("ind");
 	s="sachintendulkar";
 	System.out.println(s);
-	String s4
+	String s4;
 	}
 }
+//Mike
+//Mikes
+//true
+//false
+//sachintendulkar

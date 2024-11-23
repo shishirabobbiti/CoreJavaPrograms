@@ -1,0 +1,9 @@
+package com.cart;
+
+public class Item {
+	  	
+       String name;
+       int price;
+       int quantity;
+
+}

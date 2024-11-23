@@ -1,0 +1,40 @@
+package com.shopping;
+
+import java.util.Scanner;
+
+import com.cart.Cart;
+import com.item.Item;
+
+public class Shopping {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		boolean b=true;
+		while(b) {
+			
+			System.out.println("1.additems"+"\n"+"2.Displayitems"+"\n"+"3.Display totalamount"+"\n"+"4.Exit"+"\n"+"Please select choice");
+			int choice=sc.nextInt();	
+			Cart cart=new Cart();
+			if(choice==1) {
+			Item item=new Item("Frock",999,1);	
+			cart.addItem(item);
+			System.out.println("Item added successfully");
+			}
+			else if(choice==2){
+				System.out.println("Items in Cart::");
+			cart.displayItems();
+			}
+			else if(choice==3){
+			int totalAmount=cart.totalAmount();
+			System.out.println("total=" + totalAmount);
+			}
+			else if(choice==4) {
+				b=false;
+			}
+			else
+				System.out.println("Invalid Choice");
+			
+		}
+	}
+
+}

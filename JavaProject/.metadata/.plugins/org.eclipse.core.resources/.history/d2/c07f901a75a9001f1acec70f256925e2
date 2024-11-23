@@ -1,0 +1,21 @@
+package com.cart;
+
+import com.item.Item;
+
+public class Cart implements ICart {
+	
+	public Cart() {
+		
+	}
+
+	public void addItem(Item item) {
+			
+	}
+	public void displayItems() {
+	}
+	
+	public int totalAmount() {
+		int value=0;
+		return value;
+	}
+}

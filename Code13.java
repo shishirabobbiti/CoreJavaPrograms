@@ -18,7 +18,5 @@ public class Code13{
 			System.out.println();
 		}
 	}
-}	
-
-(condition)?true:false;			
+}		
 

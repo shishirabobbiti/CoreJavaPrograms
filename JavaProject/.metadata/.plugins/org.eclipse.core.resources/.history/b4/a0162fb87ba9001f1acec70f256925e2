@@ -1,0 +1,18 @@
+package com.shopping;
+
+import com.cart.Cart;
+import com.item.Item;
+
+public class Shopping {
+
+	public static void main(String[] args) {
+		Item item=new Item("Frock",999,1);
+		Cart cart=new Cart();
+		cart.addItem(item);
+		cart.displayItems();
+		
+		
+
+	}
+
+}

@@ -22,7 +22,7 @@ class Payload {
 public class TestPayload {
 	static void changePayload(Payload p) { 
 		
-		p.setWeight(420);
+		p = new Payload(420);
 	 } 
 	public static void main(String[] args) {
 		Payload p = new Payload(200);

@@ -1,0 +1,23 @@
+package com.cart;
+
+import java.util.ArrayList;
+
+import com.item.Item;
+
+public class Cart implements ICart {
+	
+	public Cart() {
+		
+	}
+	public void addItem(Item item) {
+		ArrayList<Item> al=new ArrayList<Item>();
+			
+	}
+	public void displayItems() {
+	}
+	
+	public int totalAmount() {
+		int value=0;
+		return value;
+	}
+}

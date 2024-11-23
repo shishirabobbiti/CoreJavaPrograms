@@ -1,0 +1,8 @@
+package com.cart;
+
+public interface ICart {
+	public void addItems();
+	public void displayItems();
+	public int totalAmount();
+
+}
