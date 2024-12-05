@@ -1,17 +1,31 @@
+
 public class Student{
-	int id;
-	public Student(int id){
-	this.id=id;
-	}
+	
 	public static void main(String[] args){
-	 Student s=new Student(1234);
-		s.printId(s.id);
-		
-	}
-	public void printId(int id){
-		System.out.println("print id "+ id);
-		
+	
+	//Wrapper Object:Auto Boxing
+	Integer i= 20;
+	System.out.println(i);
+
+	//Integer to String
+	String s=i.toString();
+	System.out.println(s+1);
+
+	//String to Integer
+	Integer j=Integer.parseInt(s);
+	System.out.println(j+1);
+
+	//Integer to Long
+	Long l=Long.valueOf(j);
+	System.out.println(l);
+
+        // Auto unboxing: converting wrapper object to primitive
+        int unwrappedInt = wrappedInt.intValue();
+        System.out.println("Unwrapped Integer: " + unwrappedInt);
 
 	}
-
+	
+//parseInt();
+//valueOf();
+//xxxValue();
 }
