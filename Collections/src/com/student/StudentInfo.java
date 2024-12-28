@@ -10,6 +10,7 @@ public class StudentInfo {
 	Bike bike[];
 
 	public StudentInfo(Student student, Book book[], Address address, Bike bike[]) {
+		//para constructor
 		this.student = student;
 		this.book = book;
 		this.address = address;
