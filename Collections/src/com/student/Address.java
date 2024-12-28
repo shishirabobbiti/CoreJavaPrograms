@@ -8,6 +8,7 @@ public class Address {
 	int pincode;
 	
 	public Address(int hNo, String mandal, String district, int pincode) {
+		//para cconstructor
 		this.hNo = hNo;
 		this.mandal = mandal;
 		this.district = district;
